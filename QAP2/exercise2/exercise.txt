@@ -1,0 +1,12 @@
+The business scenairo I chose was a Photo Agency. The following explains how the business works and the entities that will be used. 
+
+
+Photographer: The business has a team of photographers, each identified uniquely. They are responsible for handling photoshoots and interacting with clients to understand their requirements.
+
+Client: Clients contact the photography business to request photoshoots. Each client has a unique identifier and can request multiple photoshoots over time.
+
+
+Photoshoot: When a client requests a photoshoot, the details are logged into the system. This includes the date of the shoot, the location, the subject (e.g., wedding, corporate event, portrait session) and a keyword. Each photoshoot is associated with a specific photographer and client. This allows the business to track which photographer is working with which client and the details of each shoot.
+
+
+Invoice: After a photoshoot, an invoice is generated for the client. This invoice details the services provided, the date of the photoshoot, and the amount charged. Each invoice is associated with a specific client and photographer. This helps in tracking financial transactions and ensures that clients are billed correctly for the services provided.
